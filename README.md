@@ -1,6 +1,6 @@
 # IAM Access Review Toolkit
 
-![CI](https://github.com/okrahgadiel-star/iam-access-review/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/okrahgadiel/iam-access-review/actions/workflows/ci.yml/badge.svg)
 
 An automated **identity access review** (user access recertification) tool. It cross-references an HR roster against identity-provider exports (Active Directory, Microsoft Entra ID / Azure AD, Okta) and application entitlements to surface the identity risks that auditors and IAM teams look for. It flags each issue by severity, gives a recommended fix, and scores risk per account.
 
@@ -27,7 +27,7 @@ Each finding includes a remediation recommendation. Accounts get a weighted risk
 Requires Python 3.9+. No third-party packages.
 
 ```bash
-git clone https://github.com/okrahgadiel-star/iam-access-review.git
+git clone https://github.com/okrahgadiel/iam-access-review.git
 cd iam-access-review
 python -m access_review --data sample_data --as-of 2026-11-11
 ```
