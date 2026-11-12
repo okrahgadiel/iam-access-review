@@ -1,0 +1,15 @@
+account_id,username,email,employee_id,source,account_type,enabled,mfa_enabled,last_login,owner
+A001,abrooks,avery.brooks@example.com,E1001,EntraID,human,true,true,2026-11-08,
+A002,jlee,jordan.lee@example.com,E1002,EntraID,human,true,true,2026-11-10,
+A003,rchen,riley.chen@example.com,E1003,EntraID,human,true,true,2026-11-09,
+A004,mdiaz,morgan.diaz@example.com,E1004,EntraID,human,true,true,2026-09-30,
+A005,cpatel,casey.patel@example.com,E1005,ActiveDirectory,human,true,false,2026-11-07,
+A006,tnguyen,taylor.nguyen@example.com,E1006,EntraID,human,true,true,2026-06-02,
+A007,jrivera,jamie.rivera@example.com,E1007,Okta,human,true,true,2026-11-10,
+A008,dokafor,drew.okafor@example.com,E1008,EntraID,human,true,true,2026-11-10,
+A009,swhitfield,sam.whitfield@example.com,E1009,ActiveDirectory,human,false,false,2026-09-28,
+A010,qalvarez,quinn.alvarez@example.com,E1010,EntraID,human,true,true,2026-11-06,
+A011,temp.contractor,contractor7@vendor.example.net,,ActiveDirectory,human,true,false,2026-10-20,
+A012,svc_backup,,,ActiveDirectory,service,true,false,2026-11-11,Avery Brooks
+A013,svc_reporting,,,ActiveDirectory,service,true,false,2026-11-11,
+A014,admin_test,,,EntraID,human,true,false,,

@@ -1,0 +1,11 @@
+employee_id,name,email,department,title,status,termination_date
+E1001,Avery Brooks,avery.brooks@example.com,IT,Systems Engineer,Active,
+E1002,Jordan Lee,jordan.lee@example.com,Finance,Accounts Payable Specialist,Active,
+E1003,Riley Chen,riley.chen@example.com,Finance,Accounting Manager,Active,
+E1004,Morgan Diaz,morgan.diaz@example.com,Merchandising,Buyer,Terminated,2026-08-15
+E1005,Casey Patel,casey.patel@example.com,IT,Help Desk Analyst,Active,
+E1006,Taylor Nguyen,taylor.nguyen@example.com,HR,HR Generalist,Active,
+E1007,Jamie Rivera,jamie.rivera@example.com,Supply Chain,Logistics Analyst,Active,
+E1008,Drew Okafor,drew.okafor@example.com,IT,Security Engineer,Active,
+E1009,Sam Whitfield,sam.whitfield@example.com,Finance,Payroll Specialist,Terminated,2026-10-01
+E1010,Quinn Alvarez,quinn.alvarez@example.com,Merchandising,Assistant Buyer,Active,

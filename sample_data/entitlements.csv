@@ -1,0 +1,29 @@
+account_id,application,entitlement
+A001,AD,Domain Admins
+A001,Azure,Contributor
+A001,M365,User
+A002,Oracle ERP,AP Invoice Entry
+A002,M365,User
+A003,Oracle ERP,AP Invoice Entry
+A003,Oracle ERP,AP Payment Approval
+A003,M365,User
+A004,Oracle Retail,Purchase Order Create
+A004,M365,User
+A005,ServiceNow,ITIL
+A005,AD,Account Operators
+A005,M365,User
+A006,Workday,HR Partner
+A006,M365,User
+A007,Manhattan WMS,Inventory Adjust
+A007,M365,User
+A007,Oracle ERP,AP Invoice Entry
+A008,CyberArk,Vault Admin
+A008,SailPoint,Identity Admin
+A008,M365,User
+A010,Oracle Retail,Purchase Order Create
+A010,Oracle Retail,Purchase Order Approve
+A010,M365,User
+A011,AD,Domain Admins
+A012,AD,Backup Operators
+A013,SQL Server,db_owner
+A014,Azure,Global Administrator

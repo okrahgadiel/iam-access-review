@@ -1,0 +1,25 @@
+{
+  "stale_after_days": 90,
+  "privileged_entitlements": [
+    "AD:Domain Admins",
+    "AD:Account Operators",
+    "AD:Backup Operators",
+    "Azure:Global Administrator",
+    "Azure:Contributor",
+    "CyberArk:Vault Admin",
+    "SailPoint:Identity Admin",
+    "SQL Server:db_owner"
+  ],
+  "sod_conflicts": [
+    ["Oracle ERP:AP Invoice Entry", "Oracle ERP:AP Payment Approval"],
+    ["Oracle Retail:Purchase Order Create", "Oracle Retail:Purchase Order Approve"]
+  ],
+  "universal_entitlements": ["M365:User"],
+  "role_baselines": {
+    "IT": ["AD:Domain Admins", "Azure:Contributor", "ServiceNow:ITIL", "AD:Account Operators", "CyberArk:Vault Admin", "SailPoint:Identity Admin"],
+    "Finance": ["Oracle ERP:AP Invoice Entry", "Oracle ERP:AP Payment Approval"],
+    "Merchandising": ["Oracle Retail:Purchase Order Create", "Oracle Retail:Purchase Order Approve"],
+    "HR": ["Workday:HR Partner"],
+    "Supply Chain": ["Manhattan WMS:Inventory Adjust"]
+  }
+}
